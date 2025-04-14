@@ -1,0 +1,36 @@
+Tela de Login: Formulário de login (e-mail/senha) com opção de selecionar o tipo de usuário (paciente, médico, enfermeiro, faxineiro, cozinheiro, admin).
+Dashboard do Paciente: Exibe histórico de consultas, resultados de exames, agendamentos e dados de wearables.
+Dashboard do Médico: Lista de pacientes, consultas do dia, relatórios de atendimentos.
+Dashboard do Enfermeiro: Tarefas do dia, lista de pacientes, alertas.
+Dashboard do Faxineiro: Cronograma de limpeza, tarefas pendentes.
+Dashboard do Cozinheiro: Pedidos de refeições, cronograma de preparo.
+Dashboard do Admin: Gerenciamento de usuários e relatórios gerais.
+Tela de Cadastro de Médicos: Formulário para cadastrar médicos e especialidades.
+Tela de Cadastro de Enfermeiros: Formulário para enfermeiros.
+Tela de Cadastro de Faxineiros: Formulário para faxineiros.
+Tela de Cadastro de Cozinheiros: Formulário para cozinheiros.
+Tela de Cadastro de Funcionários Diversos: Formulário genérico para outros funcionários.
+Tela de Agendamento de Consultas: Formulário para pacientes agendarem consultas com especialistas em hospitais públicos.
+Tela de Busca de Hospitais: Mapa interativo (Google Maps) para buscar hospitais por cidade/estado, com tempo de espera.
+Tela de Telemedicina: Interface para videochamadas com médicos.
+Tela de Prontuário Eletrônico: Exibe resultados de exames, histórico e medicações do paciente.
+Tela de Notificações: Lista de notificações (consultas, medicações, tarefas).
+Tela de Relatórios (Médico): Gráficos de atendimentos e métricas.
+Tela de Relatórios (Admin): Visão geral do hospital (leitos, atendimentos).
+Tela de Perfil do Usuário: Editar informações pessoais.
+Tela de Configurações: Ajustes de idioma (português, inglês, espanhol) e tema.
+Tela de Tarefas (Faxineiro): Detalhes das tarefas de limpeza.
+Tela de Tarefas (Cozinheiro): Detalhes dos pedidos de refeições.
+Tela de Cadastro de Pacientes: Formulário para novos pacientes.
+Tela de Recuperação de Senha: Formulário para recuperação de senha.
+Funcionalidades:
+
+Autenticação com login por setor (paciente, médico, enfermeiro, faxineiro, cozinheiro, admin).
+Dashboards específicos para cada tipo de usuário.
+Agendamento de consultas com busca de hospitais públicos por cidade/estado (usar Google Maps API).
+Integração com WebRTC para telemedicina.
+Suporte a múltiplos idiomas (português, inglês, espanhol).
+Acessibilidade (WCAG 2.1): alto contraste, fontes legíveis, suporte a leitores de tela.
+Integração com backend via API (ex.: /api/patients, /api/appointments).
+Contexto de autenticação para proteger rotas.
+Componente ErrorBoundary para lidar com erros.
